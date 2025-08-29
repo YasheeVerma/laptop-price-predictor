@@ -1,5 +1,5 @@
 import streamlit as st
-import cloudpickle  # Using cloudpickle instead of pickle
+import pickle  # Using cloudpickle instead of pickle
 import numpy as np
 
 # Load the model and dataframe
@@ -73,4 +73,5 @@ if st.button('💰 Predict Price'):
     # Predict and show result
     predicted_price = int(np.exp(pipe.predict(query)[0]))
     st.subheader(f"🟢 The predicted price is: ₹ {predicted_price:,}")
+
 
