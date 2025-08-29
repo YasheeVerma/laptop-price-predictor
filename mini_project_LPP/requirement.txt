@@ -1,3 +1,5 @@
 streamlit
 cloudpickle
 numpy
+scikit-learn
+pandas
