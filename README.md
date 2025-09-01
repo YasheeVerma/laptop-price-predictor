@@ -1,1 +1,2 @@
 # laptop-price-predictor
+A machine learning-based web application that predicts the price of a laptop based on its specifications. Users can input details such as brand, processor, RAM, storage, GPU, operating system, and screen resolution to get an estimated market price. The project utilizes Python, scikit-learn, and data preprocessing techniques for model training, with a user-friendly interface built using Streamlit (or Flask/Django). Designed to help users make informed purchasing decisions.
